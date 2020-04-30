@@ -1,5 +1,5 @@
 {
-    "name": "rinvex/laravel-tags",
+    "name": "kjmtrue/laravel-tags",
     "description": "Rinvex Tags is a polymorphic Laravel package, for tag management. You can tag any eloquent model with ease, and utilize the awesomeness of Sluggable, and Translatable models out of the box.",
     "type": "library",
     "keywords": [
@@ -42,12 +42,12 @@
         }
     ],
     "require": {
-        "php": "^7.4.0",
+        "php": "^7.4.0|^7.3",
         "illuminate/console": "^7.0.0",
         "illuminate/database": "^7.0.0",
         "illuminate/support": "^7.0.0",
-        "rinvex/laravel-cacheable": "^4.0.0",
-        "rinvex/laravel-support": "^4.0.0",
+        "kjmtrue/laravel-cacheable": "^4.1",
+        "kjmtrue/laravel-support": "^4.1",
         "spatie/eloquent-sortable": "^3.7.0",
         "spatie/laravel-sluggable": "^2.2.0",
         "spatie/laravel-translatable": "^4.2.0"
